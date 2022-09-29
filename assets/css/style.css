@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    padding: 120px 40px 120px 40px;
+    color: white;
+    background-color:lightblue;
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    width: 75%;
+    margin: auto;
+    background-color: blue;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    
+}
+
+button{
+    border-radius: 40px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.item{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 7%;
+}
+
+.menu{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.login{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.main{
+    background-color: orange;
+    width: 55%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.left{
+    background-color: green;
+    width: 32%;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.right{
+    background-color: lightgreen;
+    width: 32%;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    background-color: grey;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.section4{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    width: 1230px;
+    margin: 336px;
+}
+
+.test{
+    background-color: blue;
+    align-items: center;
+    height: 50%;
+}
+
+.immagine{
+    background-color: aquamarine;
+    height: 50%;
+}
+
+.background{
+    background-color: grey;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+}
+
+.line1{
+    background-color: orangered;
+    width: 14%;
+    height: 450px;
+}
+
+.line2{
+    background-color: brown;
+    width: 14%;
+    height: 450px;
+}
+
+.line3{
+    background-color: beige;
+    width: 14%;
+    height: 450px;
+}
+
+.line4{
+    background-color: red;
+    width: 14%;
+    height: 450px;
+}
+.line5{
+    background-color: orange;
+    width: 14%;
+    height: 450px;
+}
